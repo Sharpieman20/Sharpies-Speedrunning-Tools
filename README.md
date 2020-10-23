@@ -6,4 +6,4 @@ The twitch command information are located in this file: [TWITCH_COMMANDS.md](TW
 
 Simply paste the text into your chat in order to get them. They all have a description attached.
 
-If this is your first time at this repo, just add [!blindtravel](commands/!blindtravel) and [!educatedtravel](commands/!educatedtravel). They are the simplest, easiest to use, and very useful.
+If this is your first time at this repo, just add [!blindtravel](https://raw.githubusercontent.com/Sharpieman20/Sharpie-s-Speedrunning-Tools/main/commands/!blindtravel) and [!educatedtravel](https://raw.githubusercontent.com/Sharpieman20/Sharpie-s-Speedrunning-Tools/main/commands/!educatedtravel). They are the simplest, easiest to use, and very useful.
