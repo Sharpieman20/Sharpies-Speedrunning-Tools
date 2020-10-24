@@ -1,2 +1,0 @@
-fetch('https://fiddle.jshell.net/robots.txt')
-  .then((response) => response.text().then(yourCallback));

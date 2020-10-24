@@ -1,14 +1,15 @@
-var inp=$(query);
+var inp="$(query)";
 
-var ideal=216;
-var f = 90-inp;
+var args = inp.split(" ");
 
-var r = f * (Math.PI/180);
+var x=args[6];
+var z=args[8];
 
-var x = -1*Math.cos(r)*ideal;
-var z = Math.sin(r)*ideal;
+var o=200;
 
-var xFormatted = x.toFixed(2);
-var zFormatted = z.toFixed(2);
+var t = Math.atan(z/x);
 
-xFormatted + ", " + zFormatted
+var x_p = Math.sign(x)*o*Math.cos(t);
+var z_p = Math.sign(z)*o*Math.sin(t);
+
+x_p.toFixed(0) + ", " + z_p.toFixed(0)

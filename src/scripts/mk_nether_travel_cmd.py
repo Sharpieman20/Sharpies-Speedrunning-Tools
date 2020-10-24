@@ -1,7 +1,7 @@
 from pathlib import Path
 import re
 
-base_str = '!commands add !testcalc $(eval {})'
+base_str = '!commands edit !testcalc $(eval {})'
 
 js_code = Path.cwd().parent / 'commands' / 'test_calc_cmd.js'
 
