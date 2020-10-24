@@ -10,4 +10,4 @@ If this is your first time at this repo, just add [!blindtravel](https://raw.git
 
 **DESMOS CALCULATORS**
 
-Here's the link to the [!blindcalc](https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/commands/!blindcalc) desmos calculator and the [!educatedcalc](https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/commands/!educatedcalc) desmos calculator.
+Here's the link to the [!blindcalc desmos calculator](https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/links/blindcalc.txt) and the [!educatedcalc desmos calculator](https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/links/educatedcalc.txt) desmos calculator.
