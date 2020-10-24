@@ -1,1 +1,1 @@
-!commands edit !testtravel $(eval eval($(urlfetch json https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/links/blind_travel_cmd.json).code))
+!commands edit !testtravel $(eval var inp = "$(query)"; var func = new Function(($(urlfetch json https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/links/blindtravel.json)).code); func(inp))
