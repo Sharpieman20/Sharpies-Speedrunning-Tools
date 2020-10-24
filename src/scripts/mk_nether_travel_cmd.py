@@ -1,9 +1,9 @@
 from pathlib import Path
 import re
 
-base_str = '!commands add !nethertravel $(eval {})'
+base_str = '!commands add !testcalc $(eval {})'
 
-js_code = Path.cwd() / 'nether_travel_cmd.js'
+js_code = Path.cwd().parent / 'commands' / 'test_calc_cmd.js'
 
 inp_txt = js_code.read_text()
 
