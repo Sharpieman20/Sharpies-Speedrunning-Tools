@@ -1,1 +1,1 @@
-!commands edit !testtravel $(eval "$(urlfetch https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/src/commands/blind_travel_cmd.js)")
+!commands edit !testtravel $(eval $(urlfetch https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/src/commands/blind_travel_cmd.js))
