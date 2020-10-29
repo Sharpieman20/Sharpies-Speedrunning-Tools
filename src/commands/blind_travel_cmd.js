@@ -3,9 +3,19 @@ var inp="$(query)";
 var args = inp.split(" "); 
 
 var x=args[6]; 
-var z=args[8]; 
+var z=args[8];
 
-var o=200; 
+var dist=Math.sqrt(x*x+z*z);
+var o;
+if (dist < 190) {
+    o = 190;
+} else if (dist < 310) {
+    o = dist;
+} else if (dist < 460) {
+    o = 310;
+} else {
+    o = 670;
+}
 
 var t = Math.atan(z/x); 
 
