@@ -8,6 +8,7 @@ var q=Math.sqrt;
 var x=parseFloat(i[6]);
 var z=parseFloat(i[8]);
 var f=parseFloat(i[9]);
+var n=parseInt(i[11]);
 f%=360;
 if (f < 0) {
     f += 360;
@@ -33,5 +34,9 @@ while (s<11904){
 }
 
 l.sort(function(u,i){return u.j-i.j;});
+while (n > 0) {
+    l.shift();
+    n-=1;
+}
 var h=l.shift();
-(h.k).toFixed(0)+", "+(h.r).toFixed(0)
+h.v+","+h.j+","+h.k+","+h.r
