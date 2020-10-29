@@ -13,6 +13,10 @@ if (dist < 190) {
     o = dist;
 } else if (dist < 460) {
     o = 310;
+} else if (dist < 610) {
+    o = 610;
+} else if (dist < 670) {
+    o = dist;
 } else {
     o = 670;
 }

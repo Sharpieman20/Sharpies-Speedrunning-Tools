@@ -27,4 +27,4 @@ var c_o = b_1*b_1 - o*o;
 var x_p = ((-1*b) - (Math.sign(f)*Math.sqrt(b*b - 4*a*c_o)))/(2*a);
 var z_p = m_1*x_p + b_1;
 
-f + ", "+ b
+x_p.toFixed(0) + ", "+ z_p.toFixed(0)

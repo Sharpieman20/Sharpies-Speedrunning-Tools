@@ -19,14 +19,14 @@ var m=-Math.tan(r);
 var b=8-a(x%16)+16;
 var l=[];
 
-while (a(x)<2688&&a(z)<2688){
+while (a(x)<11904&&a(z)<11904){
     var d=b*g(-f);
     x+=d;
     z+=d*m;
     var v=a(a(z%16)-8);
     var s=Math.sqrt(x*x+z*z);
     if (s > 1408) {
-        v*=2688/s;
+        v*=Math.sqrt(l.length);
         l.push({k:x,v:a(v),r:z});
     }
     b=16;
@@ -34,4 +34,4 @@ while (a(x)<2688&&a(z)<2688){
 
 l.sort(function(u,i){return u.v-i.v;});
 var h=l.shift();
-(h.k/8).toFixed(0)+", "+(h.r/8).toFixed(0)
+(h.k).toFixed(0)+", "+(h.r).toFixed(0)

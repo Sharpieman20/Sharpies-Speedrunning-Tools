@@ -1,4 +1,4 @@
-This repository is for Sharpie's Minecraft Speedrunning Tools
+This repository is for Sharpie's Minecraft Speedrunning Nether Travel/Stronghold Search Tools
 
 **TWITCH COMMANDS**
 
