@@ -18,13 +18,14 @@ var r=(90-f)*(Math.PI/180);
 var m=-Math.tan(r);
 var b=8-a(x%16)+16;
 var l=[];
+var s=0;
 
-while (a(x)<2688&&a(z)<2688){
+while (s<2688){
     var d=b*g(-f);
     x+=d;
     z+=d*m;
     var v=a(a(z%16)-8);
-    var s=Math.sqrt(x*x+z*z);
+    s=Math.sqrt(x*x+z*z);
     if (s > 1408) {
         v*=2688/s;
         l.push({k:x,v:a(v),r:z});
