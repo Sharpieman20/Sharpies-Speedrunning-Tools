@@ -1,30 +1,36 @@
 var inp="$(query)"; 
 
 var args = inp.split(" "); 
+var a=Math.abs;
+var g=Math.sign;
 
-var x=parseFloat(args[6]); 
+var x=parseFloat(args[6]);
 var z=parseFloat(args[8]);
 var f=parseFloat(args[9]);
-
-var g=Math.sign;
-var a=Math.abs;
+f+=180;
+f%=360;
+if (f < 0) { f+=360; };
+f-=180;
 
 var r=(90-f)*(Math.PI/180);
 
-var c=Math.cos(r);
-var w=g(x)*c;
-var m=g(z)*Math.sin(r);
-var b=16-(x%16)+8;
+var m=-Math.tan(r);
+var b=8-a(x%16)+16;
 var l=[];
 
-while (a(x)<9000){
-    var d=b/c;
-    x+=d*w;
+while (a(x)<2688){
+    var d=b*g(-f);
+    x+=d;
     z+=d*m;
-    l.push({k:x,v:a(a(z%16)-8),r:z});
-    b=16;}
+    var v=a(a(z%16)-8);
+    var s=Math.sqrt(x*x+z*z);
+    if (s > 1408) {
+        v*=2688/s;
+        l.push({k:x,v:a(v),r:z});
+    }
+    b=16;
+}
 
 l.sort(function(u,i){return u.v-i.v;});
-
 var h=l.shift();
-h.k+", "+h.r
+(h.k).toFixed(0)+", "+(h.r).toFixed(0)
