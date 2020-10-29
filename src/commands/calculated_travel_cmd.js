@@ -9,8 +9,9 @@ var z=parseFloat(args[8]);
 var f=parseFloat(args[9]);
 f+=180;
 f%=360;
-if (f < 0) { f+=360; };
-f-=180;
+if (f < -180) {
+    f += 360;
+}
 
 var r=(90-f)*(Math.PI/180);
 
