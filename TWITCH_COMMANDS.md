@@ -40,7 +40,7 @@ It uses the same concepts as the 8,8 rule and !onethrow to attempt to guess the 
 **Rings**: Inside first ring only.
 
 
-[!onethrow](https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/commands/!onethow)
+[!onethrow](https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/commands/!onethrow)
 
 Uses the 8,8 rule to try and guess the stronghold's location from a single throw.
 
