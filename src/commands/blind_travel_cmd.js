@@ -23,7 +23,7 @@ if (dist < 190) {
 
 var t = Math.atan(z/x); 
 
-var x_p = Math.sign(x)*o*Math.cos(t); 
-var z_p = Math.sign(z)*o*Math.sin(t); 
+var x_p = Math.sign(x)*Math.abs(o*Math.cos(t));
+var z_p = Math.sign(z)*Math.abs(o*Math.sin(t));
 
 x_p.toFixed(0) + ", " + z_p.toFixed(0)

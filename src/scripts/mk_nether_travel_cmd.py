@@ -1,12 +1,12 @@
 from pathlib import Path
 import re
 
-base_str = '!commands add !calculatedtravel $(eval {})'
+base_str = '!commands add !blindtravel $(eval {})'
 
 import requests
 
 
-js_code = Path.cwd().parent / 'commands' / 'calculated_travel_cmd.js'
+js_code = Path.cwd().parent / 'commands' / 'blind_travel_cmd.js'
 tmp_fil = Path.cwd() / 'tmp.js'
 tmp_fil.touch()
 
