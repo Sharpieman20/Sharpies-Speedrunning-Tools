@@ -27,7 +27,7 @@ This is the visual version of !educatedtravel. It's useful to help understand ho
 
 
 
-[!onethrow](https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/commands/!educatedtravel)
+[!calculatedtravel](https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/commands/!calculatedtravel)
 
 This should be used when you want to build another portal in the nether **after** throwing an eye.
 
@@ -40,7 +40,7 @@ It uses the same concepts as the 8,8 rule and !onethrow to attempt to guess the 
 **Rings**: Inside first ring only.
 
 
-[!onethrow](https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/commands/!educatedcalc)
+[!onethrow](https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/commands/!onethow)
 
 Uses the 8,8 rule to try and guess the stronghold's location from a single throw.
 
