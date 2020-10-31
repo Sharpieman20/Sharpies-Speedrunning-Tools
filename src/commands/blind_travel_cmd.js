@@ -12,7 +12,7 @@ if (dist < 190) {
 } else if (dist < 310) {
     o = dist;
 } else if (dist < 460) {
-    o = 310;
+    o = 270;
 } else if (dist < 610) {
     o = 610;
 } else if (dist < 670) {
