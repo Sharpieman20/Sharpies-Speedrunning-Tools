@@ -11,3 +11,5 @@ If this is your first time at this repo, just add [!blindtravel](https://raw.git
 **DESMOS CALCULATORS**
 
 Here's the link to the [!blindcalc desmos calculator](https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/links/blindcalc.txt) and the [!educatedcalc desmos calculator](https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/links/educatedcalc.txt) desmos calculator.
+
+If you're really into stronghold search math, check out the [Advanced Desmos Calculator](https://www.desmos.com/calculator/fdlyafddru)
