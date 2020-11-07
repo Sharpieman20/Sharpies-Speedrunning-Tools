@@ -1,7 +1,7 @@
 from pathlib import Path
 import re
 
-base_str = '!commands edit !blindtravel $(eval {})'
+base_str = '!commands add !blindtravel $(eval {})'
 
 import requests
 

@@ -9,7 +9,7 @@ var dist=Math.sqrt(x*x+z*z);
 var o;
 if (dist < 190) {
     o = 190;
-} else if (dist < 310) {
+} else if (dist < 270) {
     o = dist;
 } else if (dist < 480) {
     o = 270;
