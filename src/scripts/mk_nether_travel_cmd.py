@@ -1,12 +1,12 @@
 from pathlib import Path
 import re
 
-base_str = '!commands add !blindtravel $(eval {})'
+base_str = '!commands add !safeblind $(eval {})'
 
 import requests
 
 
-js_code = Path.cwd().parent / 'commands' / 'blind_travel_cmd.js'
+js_code = Path.cwd().parent / 'commands' / 'safe_blind_cmd.js'
 tmp_fil = Path.cwd() / 'tmp.js'
 tmp_fil.touch()
 
@@ -17,7 +17,7 @@ lines = []
 for ln in inp_txt.split("\n"):
     lines.append(ln)
 last_line = lines[-1]
-lines = lines[:-1]
+# lines = lines[:-1]
 
 tmp_fil.write_text("\n".join(lines))
 # print(tmp_fil.read_text())

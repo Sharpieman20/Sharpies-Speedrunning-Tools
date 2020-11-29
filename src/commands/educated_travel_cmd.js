@@ -12,6 +12,9 @@ if (f < 0) {
 f -= 180;
 
 var o=216;
+if (Math.sqrt(x*x+z*z) > 3584) {
+    o = 640;
+}
 var d = 90-f;
 
 var x_1 = x/8;

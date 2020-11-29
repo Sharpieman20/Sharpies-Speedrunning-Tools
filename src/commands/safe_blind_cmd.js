@@ -7,24 +7,24 @@ var z=args[8];
 
 var dist=Math.sqrt(x*x+z*z);
 var o;
-if (dist < 190) {
-    o = 190;
-} else if (dist < 290) {
+if (dist < 222) {
+    o = 222;
+} else if (dist < 250) {
     o = dist;
 } else if (dist < 480) {
-    o = 290;
-} else if (dist < 594) {
-    o = 594;
-} else if (dist < 686) {
+    o = 250;
+} else if (dist < 615) {
+    o = 615;
+} else if (dist < 645) {
     o = dist;
 } else if (dist < 832) {
-    o = 686;
-} else if (dist < 970) {
-    o = 970;
-} else if (dist < 1060) {
+    o = 645;
+} else if (dist < 1005) {
+    o = 1005;
+} else if (dist < 1032) {
     o = dist;
 } else {
-    o = 1060;
+    o = 1032;
 }
 
 var t = Math.atan(z/x); 
