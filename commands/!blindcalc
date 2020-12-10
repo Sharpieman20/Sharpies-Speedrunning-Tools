@@ -1,1 +1,1 @@
-!commands add !blindcalc $(urlfetch https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/links/blindcalc.txt)
+!addcom !blindcalc $(urlfetch https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/links/blindcalc.txt)

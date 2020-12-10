@@ -1,1 +1,1 @@
-!commands add !doubletravel $(eval var inp="$(query)",args=inp.split(" "),x=args[6],z=args[8],dist=Math.sqrt(x*x+z*z),o=520,t=Math.atan(z/x),x_p=Math.sign(x)*Math.abs(o*Math.cos(t)),z_p=Math.sign(z)*Math.abs(o*Math.sin(t));x_p.toFixed(0),z_p.toFixed(0);x_p.toFixed(0) + ", " + z_p.toFixed(0))
+!addcom !doubletravel $(eval var inp="$(query)",args=inp.split(" "),x=args[6],z=args[8],dist=Math.sqrt(x*x+z*z),o=520,t=Math.atan(z/x),x_p=Math.sign(x)*Math.abs(o*Math.cos(t)),z_p=Math.sign(z)*Math.abs(o*Math.sin(t));x_p.toFixed(0),z_p.toFixed(0);x_p.toFixed(0) + ", " + z_p.toFixed(0))
