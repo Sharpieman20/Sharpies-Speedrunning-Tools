@@ -1,12 +1,12 @@
 from pathlib import Path
 import re
 
-base_str = '!commands add !blindtravel $(eval {})'
+base_str = '!addcom !twothrow $(eval {})'
 
 import requests
 
 
-js_code = Path.cwd().parent / 'commands' / 'blind_travel_cmd.js'
+js_code = Path.cwd().parent / 'commands' / 'mini_two_throw.js'
 tmp_fil = Path.cwd() / 'tmp.js'
 tmp_fil.touch()
 
