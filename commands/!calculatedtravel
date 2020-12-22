@@ -1,1 +1,1 @@
-!addcom !calculatedtravel $(urlfetch $(urlfetch https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/links/calculatedtravel.txt)/?$(query))
+!addcom !calculatedtravel $(urlfetch $(urlfetch https://raw.githubusercontent.com/Sharpieman20/Sharpies-Speedrunning-Tools/main/links/calculatedtravel.txt)?$(query))
