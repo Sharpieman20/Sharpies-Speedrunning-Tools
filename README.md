@@ -1,3 +1,10 @@
+**WARNING**: CALCULATORS HAVE BEEN MADE ILLEGAL FOR MINECRAFT SPEEDRUN SUBMISSIONS ON SPEEDRUN.COM. DO NOT USE THESE COMMANDS DURING RUNS AS THEY ARE CONSIDERED CALCULATORS.
+
+The repository will stay up for non-speedrunning purposes and for posterity.
+
+
+
+
 This repository is for Sharpie's Minecraft Speedrunning Nether Travel/Stronghold Search Tools
 
 **TWITCH COMMANDS**
