@@ -11,13 +11,13 @@ if (dist < 190) {
     o = 190;
 } else if (dist < 290) {
     o = dist;
-} else if (dist < 480) {
+} else if (dist < 442) {
     o = 290;
-} else if (dist < 594) {
-    o = 594;
-} else if (dist < 686) {
+} else if (dist < 580) {
+    o = 580;
+} else if (dist < 692) {
     o = dist;
-} else if (dist < 832) {
+} else if (dist < 825) {
     o = 686;
 } else if (dist < 970) {
     o = 970;
